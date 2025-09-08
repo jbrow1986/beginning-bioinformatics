@@ -110,3 +110,43 @@ for word in word_count:
   count += 1
 print (count)
 - How I verified correctness (tests, sample data): Tested with a document of 5 unique words. 
+
+- Tool/model & version: ChatGPT 5
+- What I asked for: how to code a variable for maximum value
+- Snippet of prompt(s): How do I set a variable that will be the maximum content for records I'm looping in python?
+- What I changed before committing: added max sequence = ""
+- How I verified correctness (tests, sample data): N/A
+
+- Tool/model & version: ChatGPT 5
+- What I asked for: Looping in parse
+- Snippet of prompt(s): I'm doing this with biopython using the parse function. Does that loop go over one sequence at a time?
+- What I changed before committing: added: seq = seq_record.seq
+- How I verified correctness (tests, sample data): Tested against Rosalind data. Printed multiple results.
+
+- Tool/model & version: Gemini 1.5 flash
+- What I asked for: Gemini pre-filled code
+- Snippet of prompt(s): Added 
+- What I changed before committing: added: seq = seq_record.seq. Gemini filled:
+    if gc_fraction(seq) > gc_fraction(max_sequence):
+      max_sequence = seq
+      max_id = seq_record.id
+      print (max_id, gc_fraction(max_sequence))
+- How I verified correctness (tests, sample data): Ran against Rosalind data.
+
+- Tool/model & version: ChatGPT 5
+- What I asked for: Asked why it printed multiple results. 
+- Snippet of prompt(s): Asked why the previous code printed multiple results. 
+- What I changed before committing: moved print line out of loop, changed comma style to print on separate lines.
+- How I verified correctness (tests, sample data): Ran against Rosalind data.
+
+- Tool/model & version: ChatGPT 5
+- What I asked for: Code check
+- Snippet of prompt(s): Can you break down these last 3 lines of code for me? max_sequence = seq max_id = seq_record.id print (max_id, gc_fraction(max_sequence))
+- What I changed before committing: None
+- How I verified correctness (tests, sample data): Ran against Rosalind data again.
+
+- Tool/model & version: ChatGPT 5
+- What I asked for: Code for percentage with decimal places. 
+- Snippet of prompt(s): How do I return this into a percentage?
+- What I changed before committing: Changed (gc_fraction(max_sequence)) to (f"{gc_fraction(max_sequence)*100:.6f}%")
+- How I verified correctness (tests, sample data): Ran against Rosalind data. 
