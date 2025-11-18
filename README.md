@@ -27,7 +27,9 @@ Marker-based cell type annotation
 
 Initial condition-specific comparisons (cSLE vs cHD)
 
+
 All computations were performed in Google Colab using Python and Scanpy.
+
 
 Repository Contents
 
@@ -47,19 +49,24 @@ Repository Contents
     marker_dotplot.png
     ...
     
+
 README.md                              # Project summary and repo guide
+
 
 How to Use This Repository
 
 Run the analysis in Google Colab
 
+
 Open the main notebook:
 
 https://colab.research.google.com/drive/1QcEpGQUus6s0nHrxckS6Xc8JQ29U91sV?usp=sharing
 
+
 Mount Google Drive
 
 Follow the pipeline from data loading → QC → clustering → annotation
+
 
 Dependencies
 
@@ -75,21 +82,35 @@ matplotlib / seaborn
 
 python-igraph (for Leiden)
 
+
 All dependencies are installed automatically inside the Colab notebook.
 
 Dataset Information
+
 Source: GEO Accession GSE135779
+
 Samples:
+
 33 pediatric SLE (cSLE1–cSLE33)
+
 11 healthy controls (cHD1–cHD11)
+
 Technology: 10x Genomics scRNA-seq (PBMCs)
+
 Raw files: barcodes, gene tables, and matrix files (.tsv.gz and .mtx.gz)
 
+
 AI Usage Disclosure
+
 ChatGPT was used as a coding and conceptual assistant for:
+
 Designing the analysis workflow
+
 Troubleshooting Scanpy operations and merging issues
+
 Generating summary language for the report
+
 Interpreting QC plots and UMAP clusters
+
 
 All code was reviewed, executed, and validated manually.
