@@ -1,4 +1,4 @@
-# Single-Cell Transcriptomic Analysis of Immune Cells in Systemic Lupus Erythematosus
+# Single-Cell Transcriptomic Analysis of Immune Cell Composition in Systemic Lupus Erythematosus
 Bioinformatics Final Project — GSE135779 Analysis
 
 Jennifer Brow + 1000853174 + BIOL-5340-001
