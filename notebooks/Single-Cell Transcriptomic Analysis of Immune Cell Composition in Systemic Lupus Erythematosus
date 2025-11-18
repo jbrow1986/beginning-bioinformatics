@@ -1,7 +1,7 @@
 All prompts were input to ChatGPT (GPT-5.1, web interface)
 
 
-PROMPT: I need help. I need to come up with a bioinformatics project, but I'm still kind of lost on a lot of the concepts. I have no idea where to start, other than maybe something to do with single-cell analysis and RNA-seq. I need to come up with a biological question to answer. Can you help?
+PROMPT: I need to come up with a bioinformatics project, but I'm still kind of lost on a lot of the concepts. I have no idea where to start, other than maybe something to do with single-cell analysis and RNA-seq. I need to come up with a biological question to answer. Can you help?
 OUTPUT: 1) Cell-type atlas & composition comparison (beginner → intermediate)
 
 Question: What cell types are present in these bone-marrow samples and does cell-type composition differ between SampleA and SampleB?
